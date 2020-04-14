@@ -1,7 +1,7 @@
-.log
-.tmp
-.pyc
-.pyo
+*.log
+*.tmp
+*.pyc
+*.pyo
 __pycache__/
 __pycache__*
 venv/
