@@ -12,9 +12,9 @@
 	* 	Ключ шифрования прописан как глобальная переменная в crypto.py
 
 ###	Примеры:
-	#### Шифрование:
+#### Шифрование:
 	 	./crypto.py -c /home/kvb/prj/py_prj/crypto/aes/embed_ethe.srec 
-	#### Дешифровка:
+#### Дешифровка:
 	 	./crypto.py -d /home/kvb/prj/py_prj/crypto/aes/crypted_embed_ethe.srec  	
 
 
