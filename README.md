@@ -11,9 +11,11 @@
 	* 	path_srec - путь к образу .srec
 	* 	Ключ шифрования прописан как глобальная переменная в crypto.py
 
-###	Пример:
-
-	* 	./crypto.py -c /home/kvb/prj/py_prj/crypto/aes/embed_ethe.srec 
+###	Примеры:
+	#### Шифрование:
+	 	./crypto.py -c /home/kvb/prj/py_prj/crypto/aes/embed_ethe.srec 
+	#### Дешифровка:
+	 	./crypto.py -d /home/kvb/prj/py_prj/crypto/aes/crypted_embed_ethe.srec  	
 
 
 
