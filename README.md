@@ -20,3 +20,21 @@
 
 
 
+## File encryption using symmetric AES-128 algorithm
+### Composition:
+##### * aes_lib.py: Library containing encryption methods
+##### * test.py: Test the library
+##### * crypto.py: start the file encryption utility
+
+### Run:
+* ./crypto.py -arg path_srec
+
+* -arg - encryption startup arguments (-c - encrypt the file, -d - decrypt the file)
+* path_srec - path to the .srec image
+* The encryption key is registered as a global variable in crypto.py
+
+### Examples:
+#### Encryption:
+./crypto.py -c /home/kvb/prj/py_prj/crypto/aes/embed_ethe.srec
+#### Decryption:
+./crypto.py -d /home/kvb/prj/py_prj/crypto/aes/crypted_embed_ethe.srec
